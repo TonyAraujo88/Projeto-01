@@ -9,7 +9,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: #47289d; 
+    background: #28659d; 
 }
 
 .card {
@@ -87,10 +87,10 @@ body {
     }
 
     .logo {
-        width: 100%;
+        width: 70%;
         transition: trasnfom 0.5s;
         position: absolute;
-        bottom: 10px;
+        bottom: 20px;
     }
 
     .card:hover .logo {
