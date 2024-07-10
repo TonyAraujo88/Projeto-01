@@ -9,7 +9,8 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: #28659d; 
+    background-image: linear-gradient(to top, #4fffdc, #0c9479);
+    background-attachment: fixed;
 }
 
 .card {
@@ -42,7 +43,7 @@ body {
 }
 
 .wrapper img {
-    border-radius: 30pox;
+    border-radius: 30px;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
 }
 
@@ -88,13 +89,13 @@ body {
 
     .logo {
         width: 70%;
-        transition: trasnfom 0.5s;
+        transition: transform 0.5s;
         position: absolute;
         bottom: 20px;
     }
 
     .card:hover .logo {
-        transform: trasnlate3d(0%, -50px, 100px);        
+        transform: translate3d(0%, -50px, 100px);        
     }
 
     .card:hover .cover-image {
